@@ -2086,7 +2086,7 @@ fn is_option_can_save(
 
 #[inline]
 pub fn is_incoming_only() -> bool {
-    return true;
+    return false;
 }
 
 #[inline]
@@ -2114,7 +2114,7 @@ pub fn is_disable_tcp_listen() -> bool {
 
 #[inline]
 pub fn is_disable_settings() -> bool {
-    return true;
+    return false;
 }
 
 #[inline]
@@ -2129,7 +2129,7 @@ pub fn is_disable_account() -> bool {
 
 #[inline]
 pub fn is_disable_installation() -> bool {
-    return true;
+    return false;
 }
 
 // This function must be kept the same as the one in flutter and sciter code.
